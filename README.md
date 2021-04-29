@@ -20,6 +20,10 @@
 
 ![AON graph](https://user-images.githubusercontent.com/83198969/116499432-b94d7780-a8de-11eb-9373-8ed7de78f406.png)
 
+* T in days.
+* Estimated overall duration : 41 days 
+* Critical path : 2 - 4.1 - 4.2 - 5 - 6
+
 ## User stories
 
 1. As a software developer, I want to do deatiled and proper research about the base so that I can ensure the msooth operation of the base.
