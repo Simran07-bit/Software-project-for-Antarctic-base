@@ -88,6 +88,26 @@
 
                  1. The system asks the osftware to be updated accordinly.
                  2. Use case resumes.
+                 
+### Installing and checking tools and devices
+
+* Goal : To check the tools and devices regularly in different temperature 
+* Primary actor : Engineer
+* Secondary actor : tools, solar, battery, generators
+* Trigger : The temperature fluctuates.
+* Pre-condition : The user has installed the tools and has access to it.
+*  Flow of events :
+
+                  1. The tools and devices are installed.
+                  2. The user checks the condition of tools in different temperature.
+                  3. The user ensure whether it works or not.
+ 
+* Extension : The device does not work in certain temperature>
+
+                  1. The system asks the error to be fixed.
+                  2. The user checks the fault in the tools.
+                  3. The system is fixed.
+                  4. Use case resumes.
  
  
  ![UML case diagram](https://user-images.githubusercontent.com/83198969/116499515-e9951600-a8de-11eb-804d-c082cae6d75e.png)
