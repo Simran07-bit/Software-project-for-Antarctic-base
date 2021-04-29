@@ -37,4 +37,74 @@
 
 10. As an emergency rescue worker, I want to prepare all the mergency kits and mke people aware about the emergecy exit so that I can prioritise safety of the workers.    
 
+
+## Use cases 
+
+### Tracking the location of the vehicle
+
+* Goal : To track the location and path of the vehicle
+* Primary actor : Driver
+* Secondary actor : Trackind device, tracking application, sensor
+* Trigger : The vehicle starts to move from its starting point and trackind device is turned on.
+* Pre- condition : The tracking device is installed and the user has acces can observe everything through tracking application.
+* Flow of events :
+                 
+                 1. The tracking device is installed and turned on.
+                 2. The vehicle starts to move from its initial point.
+                 3. The tracking device starts to track and shows all the location of the vehicle.
+                 4. The user is able to identify the destination.
+
+* Extensions : The tracking device loses the signal.
+
+                 1. The system waits for the vehicle to move out of the poor signal.
+                 2. The system asks the software to be updated.
+                 3. Use case resumes. 
+                
+                
+### Monitoring the weather condition
+
+* Goal : To monitor the temperature, ice and wind conditions of the base.
+* Primary actor : weather forecasteer, service workers
+* Secondary actor : weather station, weather mapping application, devices, instruments
+* Trigger : The weather forecaster requests the weather data from weather station hourly.
+* Pre-condition : The user has established communication link with weather station and has access to the application.
+* Flow of events : 
+
+                  1. The user requests the imformation hourly depending on the circumstances.
+                  2. The user gets information every hour.
+                  3. The user can access the updates through the mapping application. 
+                  4. The user can avoid environmental hazzard with the help of it.
+                  
+* Extensions: The system shut down suddenly.
+
+                 1. The system asks the osftware to be updated accordinly.
+                 2. Use case resumes.
+                 
+                 
+## Usability requirements 
+
+1. The tracking device must allow users to trace the location of the vehicle within 5 seconds it is turnes on, on average.
+
+2. The weather station must provide service workers with the information of weather every hour at least 99% of the time.
+
+3. The toold and devices must facilitate users to identify and detect the risks at least 99% of the time.
+
+
+## Performance requirements 
+
+1. The tools must detect and identify the risks within 10 seconds of any environmental and weather hazzards.
+
+2. The tracking device must be able to process the location of the last 6 months in total.
+
+3. The weather station must be able to send the information within 5 minute even after the changes or updates in the information.
+
+
+## Reliability requirements 
+
+1. The tracking device shpuld fail tracing locations no more than 0.1% of all times.
+
+2. The instruments must not show more than 1 error in every 1440 hours.
+
+3. The weather station updates should be available 99.99% of the time. 
+
   
