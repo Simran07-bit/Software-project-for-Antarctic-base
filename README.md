@@ -1,3 +1,5 @@
+[DeclarationOfOriginality_v1.1(1).pdf](https://github.com/Simran07-bit/Software-project-for-Antarctic-base/files/6396184/DeclarationOfOriginality_v1.1.1.pdf)
+ 
 # Planning and Requirements for Antarctic base 
 ## Work Breakdown
 ### 1. Detailed research
