@@ -15,6 +15,8 @@
 ### 5. Monitoring and identifying environmental hazzards
 ### 6. Health and safety of the worker
 
+![AON graph](https://user-images.githubusercontent.com/83198969/116499432-b94d7780-a8de-11eb-9373-8ed7de78f406.png)
+
 ## User stories
 
 1. As a software developer, I want to do deatiled and proper research about the base so that I can ensure the msooth operation of the base.
@@ -79,6 +81,9 @@
 
                  1. The system asks the osftware to be updated accordinly.
                  2. Use case resumes.
+ 
+ 
+ ![UML case diagram](https://user-images.githubusercontent.com/83198969/116499515-e9951600-a8de-11eb-804d-c082cae6d75e.png)
                  
                  
 ## Usability requirements 
